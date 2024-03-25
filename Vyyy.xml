@@ -735,7 +735,7 @@
             <int>643</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>6</combinedComparsionValue>
@@ -743,7 +743,7 @@
         </Condition>
       </conditions>
       <color>5</color>
-      <isEnabled>false</isEnabled>
+      <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
@@ -889,7 +889,7 @@
         </Condition>
       </conditions>
       <color>15</color>
-      <isEnabled>false</isEnabled>
+      <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
