@@ -2,15 +2,15 @@
   <name>Vyyy</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>17</filterIconColor>
-  <description>Version 3</description>
-  <lastModifiedInVersion>1.1.1</lastModifiedInVersion>
+  <description>Ver 3</description>
+  <lastModifiedInVersion>1.0.0.0</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
       <type>HIDE</type>
       <conditions>
         <Condition i:type="RarityCondition">
-          <rarity>NORMAL MAGIC RARE</rarity>
+          <rarity>NORMAL MAGIC RARE EXALTED</rarity>
           <advanced>false</advanced>
           <requiredLegendaryPotential>0</requiredLegendaryPotential>
           <requiredWeaversWill>0</requiredWeaversWill>
@@ -20,7 +20,7 @@
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
+      <maxLvl>100</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
     </Rule>
@@ -29,97 +29,28 @@
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
-            <EquipmentType>AMULET</EquipmentType>
-          </type>
-          <subTypes>
-            <int>7</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>34</int>
-            <int>38</int>
-            <int>86</int>
-            <int>429</int>
-            <int>26</int>
-            <int>19</int>
-            <int>25</int>
-            <int>33</int>
-            <int>72</int>
-            <int>5</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>9</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier Amulets</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
             <EquipmentType>CATALYST</EquipmentType>
           </type>
-          <subTypes>
-            <int>5</int>
-          </subTypes>
+          <subTypes />
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>6</int>
-            <int>84</int>
-            <int>13</int>
-            <int>24</int>
+            <int>4</int>
           </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>0</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
-      </conditions>
-      <color>9</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier Off-Hand Catalyst</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BOOTS</EquipmentType>
-          </type>
-          <subTypes>
-            <int>8</int>
-            <int>6</int>
-            <int>5</int>
-          </subTypes>
-        </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>28</int>
-            <int>505</int>
-            <int>27</int>
-            <int>36</int>
-            <int>97</int>
-            <int>503</int>
-            <int>10</int>
+            <int>4</int>
+            <int>34</int>
+            <int>7</int>
+            <int>80</int>
+            <int>6</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
@@ -129,104 +60,64 @@
           <advanced>false</advanced>
         </Condition>
       </conditions>
-      <color>9</color>
+      <color>17</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier Boots</nameOverride>
+      <emphasized>false</emphasized>
+      <nameOverride>GS Offhand (GS = Glacier Sorc) ( Crystal)</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="SubTypeCondition">
           <type>
-            <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
           </type>
-          <subTypes>
-            <int>5</int>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>34</int>
             <int>6</int>
-            <int>10</int>
-            <int>7</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>4</int>
-            <int>5</int>
-            <int>19</int>
-            <int>36</int>
-            <int>26</int>
-            <int>25</int>
-            <int>2</int>
-            <int>72</int>
-            <int>92</int>
-            <int>503</int>
-            <int>80</int>
           </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>0</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
-      </conditions>
-      <color>9</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier Gloves </nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>RELIC</EquipmentType>
-          </type>
-          <subTypes>
-            <int>44</int>
-            <int>54</int>
-            <int>53</int>
-            <int>50</int>
-            <int>25</int>
-            <int>32</int>
-            <int>36</int>
-            <int>33</int>
-          </subTypes>
-        </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
+            <int>6</int>
+            <int>34</int>
+            <int>86</int>
+            <int>429</int>
+            <int>35</int>
+            <int>103</int>
+            <int>10</int>
+            <int>93</int>
             <int>84</int>
-            <int>628</int>
-            <int>10</int>
             <int>25</int>
-            <int>26</int>
-            <int>504</int>
-            <int>30</int>
-            <int>72</int>
-            <int>24</int>
-            <int>503</int>
+            <int>39</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
+          <advanced>false</advanced>
         </Condition>
       </conditions>
-      <color>9</color>
+      <color>17</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier Relic  </nameOverride>
+      <emphasized>false</emphasized>
+      <nameOverride>GS + TW + SCS Amulet (Oracle)</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -235,179 +126,142 @@
           <type>
             <EquipmentType>RING</EquipmentType>
           </type>
-          <subTypes>
-            <int>9</int>
-            <int>10</int>
-            <int>7</int>
-            <int>4</int>
-            <int>8</int>
-            <int>2</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>16</int>
-            <int>330</int>
-            <int>25</int>
-            <int>7</int>
-            <int>26</int>
-            <int>504</int>
-            <int>30</int>
-            <int>72</int>
-            <int>97</int>
-            <int>503</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>9</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier RIngs</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BELT</EquipmentType>
-          </type>
-          <subTypes>
-            <int>7</int>
-            <int>8</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>16</int>
-            <int>66</int>
-            <int>27</int>
-            <int>36</int>
-            <int>26</int>
-            <int>30</int>
-            <int>97</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>9</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier Belts </nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-          </type>
-          <subTypes>
-            <int>60</int>
-            <int>39</int>
-            <int>51</int>
-            <int>66</int>
-            <int>50</int>
-            <int>28</int>
-            <int>29</int>
-            <int>22</int>
-            <int>20</int>
-          </subTypes>
+          <subTypes />
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
             <int>502</int>
-            <int>550</int>
-            <int>25</int>
-            <int>52</int>
             <int>504</int>
-            <int>505</int>
-            <int>563</int>
-            <int>503</int>
-            <int>728</int>
           </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>0</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
-      </conditions>
-      <color>9</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier Body Armour </nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>HELMET</EquipmentType>
-          </type>
-          <subTypes>
+        <Condition i:type="AffixCondition">
+          <affixes>
             <int>38</int>
-            <int>48</int>
-            <int>50</int>
-            <int>49</int>
-            <int>66</int>
-            <int>30</int>
-            <int>28</int>
-            <int>23</int>
-            <int>22</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
             <int>502</int>
-            <int>552</int>
-            <int>25</int>
+            <int>10</int>
             <int>45</int>
+            <int>17</int>
+            <int>100</int>
             <int>504</int>
-            <int>543</int>
-            <int>19</int>
-            <int>566</int>
-            <int>726</int>
-            <int>52</int>
-            <int>503</int>
-            <int>727</int>
-            <int>80</int>
+            <int>92</int>
+            <int>14</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
+          <advanced>false</advanced>
         </Condition>
       </conditions>
-      <color>9</color>
+      <color>17</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier Helmets </nameOverride>
+      <emphasized>false</emphasized>
+      <nameOverride>GS + FSD ring (Opal)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>6</int>
+            <int>80</int>
+            <int>429</int>
+            <int>17</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>17</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>GS relic ( Warding)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>34</int>
+            <int>710</int>
+            <int>502</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>34</int>
+            <int>502</int>
+            <int>86</int>
+            <int>429</int>
+            <int>673</int>
+            <int>710</int>
+            <int>715</int>
+            <int>2</int>
+            <int>31</int>
+            <int>45</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>17</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>GS + F + SSS + SCS Gloves (Eternal)</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -416,680 +270,44 @@
           <type>
             <EquipmentType>QUIVER</EquipmentType>
           </type>
-          <subTypes>
-            <int>0</int>
-            <int>2</int>
-            <int>1</int>
-          </subTypes>
+          <subTypes />
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>431</int>
+            <int>503</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>26</int>
             <int>503</int>
             <int>45</int>
+            <int>433</int>
             <int>86</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>9</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier Quiver</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BOW</EquipmentType>
-          </type>
-          <subTypes>
-            <int>7</int>
-            <int>4</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
             <int>5</int>
-            <int>672</int>
-            <int>64</int>
-            <int>719</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>9</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier Bow</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>WAND</EquipmentType>
-          </type>
-          <subTypes>
-            <int>9</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>6</int>
-            <int>38</int>
             <int>57</int>
-            <int>721</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
+          <advanced>false</advanced>
         </Condition>
       </conditions>
-      <color>9</color>
+      <color>16</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier 1H-Wand </nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
-          </type>
-          <subTypes>
-            <int>6</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>30</int>
-            <int>72</int>
-            <int>68</int>
-            <int>719</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>9</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier 2H-Axe (void-knight)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
-          </type>
-          <subTypes>
-            <int>8</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>4</int>
-            <int>718</int>
-            <int>102</int>
-            <int>643</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>9</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier 2H-Axe (shaman)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
-          </type>
-          <subTypes>
-            <int>9</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>4</int>
-            <int>718</int>
-            <int>102</int>
-            <int>643</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>9</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>A-Tier 2H-Staff</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>AMULET</EquipmentType>
-          </type>
-          <subTypes>
-            <int>7</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>100</int>
-            <int>330</int>
-            <int>25</int>
-            <int>86</int>
-            <int>30</int>
-            <int>72</int>
-            <int>19</int>
-            <int>43</int>
-            <int>6</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier Amulets</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>SHIELD</EquipmentType>
-          </type>
-          <subTypes>
-            <int>12</int>
-            <int>11</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>3</int>
-            <int>43</int>
-            <int>25</int>
-            <int>74</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier Off-Hand</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
-          </type>
-          <subTypes>
-            <int>10</int>
-            <int>8</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>30</int>
-            <int>72</int>
-            <int>719</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier 2H-Staff</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>WAND</EquipmentType>
-          </type>
-          <subTypes>
-            <int>9</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>72</int>
-            <int>100</int>
-            <int>720</int>
-            <int>722</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier 1H-Wand</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
-          </type>
-          <subTypes>
-            <int>5</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>16</int>
-            <int>72</int>
-            <int>86</int>
-            <int>721</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier 2H-Axe</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>HELMET</EquipmentType>
-          </type>
-          <subTypes>
-            <int>63</int>
-            <int>50</int>
-            <int>66</int>
-            <int>38</int>
-            <int>23</int>
-            <int>20</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>339</int>
-            <int>387</int>
-            <int>25</int>
-            <int>45</int>
-            <int>634</int>
-            <int>80</int>
-            <int>407</int>
-            <int>566</int>
-            <int>726</int>
-            <int>13</int>
-            <int>461</int>
-            <int>487</int>
-            <int>52</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier Helmets</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
-          </type>
-          <subTypes>
-            <int>9</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>6</int>
-            <int>63</int>
-            <int>56</int>
-            <int>719</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier 1H-Sword</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
-          </type>
-          <subTypes>
-            <int>3</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>6</int>
-            <int>63</int>
-            <int>57</int>
-            <int>719</int>
-            <int>56</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier Daggers</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-          </type>
-          <subTypes>
-            <int>66</int>
-            <int>47</int>
-            <int>51</int>
-            <int>8</int>
-            <int>20</int>
-            <int>63</int>
-            <int>60</int>
-            <int>39</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>339</int>
-            <int>387</int>
-            <int>19</int>
-            <int>25</int>
-            <int>358</int>
-            <int>733</int>
-            <int>80</int>
-            <int>505</int>
-            <int>371</int>
-            <int>45</int>
-            <int>619</int>
-            <int>487</int>
-            <int>52</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier Body Armour </nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>RING</EquipmentType>
-          </type>
-          <subTypes>
-            <int>2</int>
-            <int>9</int>
-            <int>10</int>
-            <int>4</int>
-            <int>8</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>100</int>
-            <int>330</int>
-            <int>7</int>
-            <int>25</int>
-            <int>502</int>
-            <int>43</int>
-            <int>30</int>
-            <int>507</int>
-            <int>80</int>
-            <int>92</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier RIngs</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>RELIC</EquipmentType>
-          </type>
-          <subTypes>
-            <int>14</int>
-            <int>18</int>
-            <int>44</int>
-            <int>43</int>
-            <int>49</int>
-            <int>54</int>
-            <int>23</int>
-            <int>26</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>100</int>
-            <int>709</int>
-            <int>10</int>
-            <int>25</int>
-            <int>72</int>
-            <int>502</int>
-            <int>24</int>
-            <int>43</int>
-            <int>654</int>
-            <int>6</int>
-            <int>88</int>
-            <int>429</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier Relic </nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BOOTS</EquipmentType>
-          </type>
-          <subTypes>
-            <int>5</int>
-            <int>6</int>
-          </subTypes>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>28</int>
-            <int>505</int>
-            <int>19</int>
-            <int>27</int>
-            <int>7</int>
-            <int>45</int>
-            <int>502</int>
-            <int>25</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>3</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>7</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier Boots</nameOverride>
+      <emphasized>false</emphasized>
+      <nameOverride>BF + DBF Quiver (BF= Ballista Falconer) (Skalnir + Ivory)</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1098,36 +316,86 @@
           <type>
             <EquipmentType>GLOVES</EquipmentType>
           </type>
-          <subTypes>
-            <int>5</int>
-            <int>10</int>
-          </subTypes>
+          <subTypes />
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>69</int>
-            <int>88</int>
-            <int>10</int>
-            <int>25</int>
-            <int>4</int>
-            <int>502</int>
             <int>36</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>503</int>
+            <int>36</int>
+            <int>86</int>
+            <int>429</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>3</combinedComparsionValue>
-          <advanced>true</advanced>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
         </Condition>
       </conditions>
-      <color>7</color>
+      <color>16</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier Gloves</nameOverride>
+      <emphasized>false</emphasized>
+      <nameOverride>BF gloves (Arcane) </nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>536</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>536</int>
+            <int>25</int>
+            <int>52</int>
+            <int>463</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>16</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>BF armour (Falconry)</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1136,27 +404,1680 @@
           <type>
             <EquipmentType>BELT</EquipmentType>
           </type>
-          <subTypes>
-            <int>7</int>
-            <int>8</int>
-          </subTypes>
+          <subTypes />
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>30</int>
-            <int>711</int>
-            <int>27</int>
             <int>36</int>
-            <int>100</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
             <int>330</int>
-            <int>25</int>
+            <int>712</int>
+            <int>52</int>
+            <int>36</int>
+            <int>26</int>
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>16</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>BF Belt (Divine) </nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
           <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+            <int>502</int>
+            <int>36</int>
+            <int>97</int>
+            <int>679</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>16</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>BF boots (Vanguard) </nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>CATALYST</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>6</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>6</int>
+            <int>7</int>
+            <int>10</int>
+            <int>24</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>15</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>TW Offhand (TW= Tormented Warlock) (Opulent) </nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>733</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>733</int>
+            <int>748</int>
+            <int>10</int>
+            <int>1</int>
+            <int>715</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>15</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>TW Body armour (Immortal)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+            <int>502</int>
+            <int>10</int>
+            <int>27</int>
+            <int>676</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>15</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>TW Boots (Citadel)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>10</int>
+            <int>18</int>
+            <int>80</int>
+            <int>45</int>
+            <int>5</int>
+            <int>25</int>
+            <int>17</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>15</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>TW + SCS  ring (Ivory) </nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>503</int>
+            <int>8</int>
+            <int>38</int>
+            <int>80</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>POR Ring (POR = Plasma Orb runemaster) (Gold) </nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>59</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>8</int>
+            <int>6</int>
+            <int>38</int>
+            <int>86</int>
+            <int>59</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>14</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>POR Amulet (Bone)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>336</int>
+            <int>1</int>
+            <int>715</int>
+            <int>397</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>13</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SSS Body Armour (SSS= Shatter strike spellblade) (Celestial)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>27</int>
+            <int>52</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>27</int>
+            <int>23</int>
+            <int>66</int>
+            <int>7</int>
+            <int>19</int>
+            <int>52</int>
+            <int>36</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>13</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SSS + SCS Belt (Praetorian)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>6</int>
+            <int>429</int>
+            <int>45</int>
+            <int>19</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>13</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SSS Relic (Scrying) </nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>504</int>
+            <int>338</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>504</int>
+            <int>25</int>
+            <int>341</int>
+            <int>52</int>
+            <int>351</int>
+            <int>34</int>
+            <int>13</int>
+            <int>335</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>12</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FSD + LSWBD Helmet (FSD = Frost swarmblade druid) (Ancestral)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>660</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>660</int>
+            <int>541</int>
+            <int>25</int>
+            <int>52</int>
+            <int>341</int>
+            <int>34</int>
+            <int>338</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>12</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FSD + LSWBD Body Armour (Ancestral)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>2</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>2</int>
+            <int>16</int>
+            <int>54</int>
+            <int>68</int>
+            <int>428</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>12</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FSD Main Hand (Chtitin)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>2</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>2</int>
+            <int>16</int>
+            <int>54</int>
+            <int>68</int>
+            <int>59</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>12</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FSD Off hand (Rust)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>100</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>100</int>
+            <int>504</int>
+            <int>25</int>
+            <int>45</int>
+            <int>14</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>12</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FSD Relic (Spirit)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+            <int>25</int>
+            <int>501</int>
+            <int>505</int>
+            <int>715</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>11</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SBFG Helmet (SBFG = Shield bas forge guard) (Leonine)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>6</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>6</int>
+            <int>330</int>
+            <int>29</int>
+            <int>86</int>
+            <int>5</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>11</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SBFG Amulet (Oracle)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+            <int>501</int>
+            <int>505</int>
+            <int>25</int>
+            <int>370</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>11</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SBFG Body Armour (Champion)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>426</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>426</int>
+            <int>5</int>
+            <int>501</int>
+            <int>25</int>
+            <int>17</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>11</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SBFG Ring (Opal)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>426</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>426</int>
+            <int>501</int>
+            <int>36</int>
+            <int>5</int>
+            <int>710</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>11</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SBFG Gloves (Eternal)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>501</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>501</int>
+            <int>639</int>
+            <int>10</int>
+            <int>24</int>
+            <int>429</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>11</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SBFG Relic (Inscribed)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>90</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>90</int>
+            <int>33</int>
+            <int>101</int>
+            <int>429</int>
+            <int>7</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>10</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>AWB Amulet (AWB = Aftershock werebear) (Oracle)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>2</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>2</int>
+            <int>72</int>
+            <int>56</int>
+            <int>719</int>
+            <int>63</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>10</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>AWB Main Hand (Nagasa)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+            <int>22</int>
+            <int>501</int>
+            <int>332</int>
+            <int>13</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>10</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>AWB Body Armor (Beastmail)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>501</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>501</int>
+            <int>30</int>
+            <int>45</int>
+            <int>80</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>10</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>AWB Ring (Coral) </nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>90</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>90</int>
+            <int>22</int>
+            <int>501</int>
+            <int>710</int>
+            <int>2</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>10</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>AWB Gloves (Eternal)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+            <int>501</int>
+            <int>31</int>
+            <int>36</int>
+            <int>677</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>10</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>AWB Boots (Citadel)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>29</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>29</int>
+            <int>26</int>
+            <int>330</int>
+            <int>59</int>
+            <int>429</int>
+            <int>80</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>9</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>DBF + BF Amulet (DBF = Dive bomb falconer) (Bone)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>728</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>728</int>
+            <int>52</int>
+            <int>59</int>
+            <int>729</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>9</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>DBF Body armor (Falconry)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>26</int>
+            <int>503</int>
+            <int>10</int>
+            <int>25</int>
+            <int>429</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>9</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>DBF Relic (Ancient)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>36</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>36</int>
+            <int>25</int>
+            <int>503</int>
+            <int>5</int>
+            <int>429</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>9</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>DBF Gloves (Plated)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+            <int>503</int>
+            <int>27</int>
+            <int>36</int>
+            <int>676</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>9</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>DBF Boots (Solarum)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>68</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>68</int>
+            <int>718</int>
+            <int>719</int>
+            <int>56</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>8</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>BF Main Hand (BF = Bleed Falconer) (Dragonbone)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>87</int>
+            <int>507</int>
+            <int>45</int>
+            <int>10</int>
+            <int>26</int>
+            <int>25</int>
+            <int>92</int>
+            <int>330</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>8</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>BF + DBF Ring (Opal)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>36</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>36</int>
+            <int>26</int>
+            <int>66</int>
+            <int>52</int>
+            <int>27</int>
+            <int>70</int>
+            <int>714</int>
+            <int>330</int>
+            <int>713</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>8</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>BF + SBM Belt (Praetorian)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>727</int>
+            <int>52</int>
+            <int>715</int>
+            <int>1</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>8</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>BF Helmet (Pinnacle)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>563</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>563</int>
+            <int>505</int>
+            <int>25</int>
+            <int>52</int>
+            <int>373</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
         </Condition>
       </conditions>
       <color>7</color>
@@ -1164,32 +2085,1190 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>S-Tier Belts</nameOverride>
+      <emphasized>false</emphasized>
+      <nameOverride>RVK Body Armour (RVK = Rive Void Knight) (Champion)</nameOverride>
     </Rule>
     <Rule>
-      <type>SHOW</type>
+      <type>HIGHLIGHT</type>
       <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>NORMAL MAGIC RARE</rarity>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>101</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>101</int>
+            <int>0</int>
+            <int>19</int>
+            <int>80</int>
+            <int>24</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
           <advanced>false</advanced>
-          <requiredLegendaryPotential>0</requiredLegendaryPotential>
-          <requiredWeaversWill>5</requiredWeaversWill>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>RVK Amulet (Bone)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>36</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>36</int>
+            <int>101</int>
+            <int>2</int>
+            <int>86</int>
+            <int>429</int>
+            <int>4</int>
+            <int>502</int>
+            <int>25</int>
+            <int>34</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>RVK + WN Gloves (Eternal)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+            <int>679</int>
+            <int>36</int>
+            <int>715</int>
+            <int>502</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>WN Boots (WN = Wraith Necro) (Vanguard)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+            <int>502</int>
+            <int>416</int>
+            <int>70</int>
+            <int>715</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>WN Helmet (Raven)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>52</int>
+            <int>502</int>
+            <int>416</int>
+            <int>715</int>
+            <int>70</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>WN Body armor (Profane)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>70</int>
+            <int>13</int>
+            <int>25</int>
+            <int>26</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>WN Ring (Turqoise)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>387</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>387</int>
+            <int>339</int>
+            <int>1</int>
+            <int>715</int>
+            <int>341</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>5</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FBFC Helm (FBF = Frostbite Frost claw sorc) (Arcane)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>387</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>387</int>
+            <int>637</int>
+            <int>45</int>
+            <int>715</int>
+            <int>341</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>5</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FBFC Body armour ( Celestial)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>100</int>
+            <int>38</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>100</int>
+            <int>17</int>
+            <int>80</int>
+            <int>14</int>
+            <int>502</int>
+            <int>504</int>
+            <int>10</int>
+            <int>23</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>5</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FBFC + LSWBD Ring (Opal)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>709</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>5</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FBFC Relic (any)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>86</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>86</int>
+            <int>14</int>
+            <int>100</int>
+            <int>10</int>
+            <int>429</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>5</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FBFC Amulet (Sapphire)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>WAND</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>100</int>
+            <int>11</int>
+            <int>721</int>
+            <int>16</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>5</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FBFC 1st Main Hand (Dragonhorn) </nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>506</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>11</int>
+            <int>506</int>
+            <int>721</int>
+            <int>16</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>5</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>FBFC 2nd Main Hand (ice )</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>53</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>53</int>
+            <int>502</int>
+            <int>25</int>
+            <int>52</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>4</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SCS Body Armor (SCS = Spark charge sorc) (Vul kaur)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>53</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>53</int>
+            <int>399</int>
+            <int>7</int>
+            <int>52</int>
+            <int>92</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>4</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SCS Helmet (Arcane)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>2</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>2</int>
+            <int>79</int>
+            <int>56</int>
+            <int>86</int>
+            <int>6</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>LSWBD Main Hand ( LSWBD = Lightning swarmblade druid) (Rune)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>2</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>2</int>
+            <int>504</int>
+            <int>36</int>
+            <int>86</int>
+            <int>429</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>LSWDB Gloves (Crusader)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>361</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>361</int>
+            <int>501</int>
+            <int>19</int>
+            <int>52</int>
+            <int>371</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>2</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>ISRFG Helm (ISRFG = Ignite shield rush forge guard) (Leonine)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>100</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>100</int>
+            <int>501</int>
+            <int>10</int>
+            <int>25</int>
+            <int>429</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>2</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>ISRFG Relic (Argent)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>545</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>501</int>
+            <int>545</int>
+            <int>19</int>
+            <int>25</int>
+            <int>429</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>1</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SBM Relic (SBM = Squirrel Bestmaster) (Spirit)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>348</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>348</int>
+            <int>501</int>
+            <int>52</int>
+            <int>715</int>
+            <int>336</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>1</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SBM Body Armour (Ancestral)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_AXE</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>68</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>68</int>
+            <int>56</int>
+            <int>57</int>
+            <int>30</int>
+            <int>6</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
         </Condition>
       </conditions>
       <color>0</color>
       <isEnabled>true</isEnabled>
-      <levelDependent>true</levelDependent>
+      <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
-      <maxLvl>5</maxLvl>
+      <maxLvl>100</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>All items until character level 50</nameOverride>
+      <nameOverride>BH Main Hand (BH = Bleed Hammerdin) (Dragonbone)</nameOverride>
     </Rule>
     <Rule>
-      <type>SHOW</type>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>87</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>87</int>
+            <int>330</int>
+            <int>507</int>
+            <int>25</int>
+            <int>92</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>BH Ring (Ivor + Opal)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>487</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>487</int>
+            <int>505</int>
+            <int>52</int>
+            <int>25</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>17</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SDB / SDF Body Armor (SDB / SDF = Shadow Daggers Bladedancer / Falconer) (Gorgonscale)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>487</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>487</int>
+            <int>505</int>
+            <int>52</int>
+            <int>25</int>
+            <int>45</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>0</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>17</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>100</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>SDB / SDF Helm (Dragon)</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
+            <int>50</int>
+            <int>501</int>
+            <int>671</int>
+            <int>718</int>
+            <int>76</int>
+            <int>89</int>
+            <int>62</int>
+            <int>15</int>
+            <int>0</int>
+            <int>723</int>
+            <int>6</int>
+            <int>5</int>
+            <int>101</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>31</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>1</int>
+            <int>46</int>
+            <int>104</int>
+            <int>92</int>
+            <int>45</int>
+            <int>425</int>
+            <int>97</int>
+            <int>427</int>
+            <int>715</int>
+            <int>28</int>
+            <int>364</int>
+            <int>363</int>
+            <int>359</int>
+            <int>358</int>
+            <int>365</int>
+            <int>366</int>
+            <int>367</int>
+            <int>368</int>
+            <int>369</int>
+            <int>370</int>
+            <int>371</int>
+            <int>372</int>
+            <int>373</int>
+            <int>374</int>
+            <int>375</int>
+            <int>376</int>
+            <int>377</int>
+            <int>378</int>
+            <int>379</int>
+            <int>380</int>
+            <int>655</int>
+            <int>656</int>
+            <int>360</int>
+            <int>361</int>
+            <int>362</int>
+            <int>560</int>
+            <int>561</int>
+            <int>562</int>
+            <int>563</int>
+            <int>564</int>
+            <int>565</int>
+            <int>566</int>
+            <int>567</int>
+            <int>568</int>
+            <int>569</int>
+            <int>570</int>
+            <int>588</int>
+            <int>589</int>
+            <int>592</int>
+            <int>596</int>
+            <int>600</int>
+            <int>601</int>
+            <int>603</int>
+            <int>604</int>
+            <int>605</int>
+            <int>631</int>
+            <int>639</int>
+            <int>652</int>
+            <int>653</int>
+            <int>654</int>
+            <int>726</int>
             <int>676</int>
             <int>677</int>
             <int>678</int>
@@ -1213,40 +3292,38 @@
             <int>699</int>
             <int>707</int>
             <int>708</int>
+            <int>758</int>
           </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
+          <combinedComparsionValue>10</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
+            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BELT</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
         </Condition>
       </conditions>
-      <color>0</color>
+      <color>9</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>Experimental affixes and personal items</nameOverride>
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>UNIQUE SET EXALTED</rarity>
-          <advanced>false</advanced>
-          <requiredLegendaryPotential>0</requiredLegendaryPotential>
-          <requiredWeaversWill>0</requiredWeaversWill>
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride />
+      <nameOverride>Void Knight</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1396,150 +3473,22 @@
       <nameOverride>Sorc</nameOverride>
     </Rule>
     <Rule>
-      <type>HIGHLIGHT</type>
+      <type>SHOW</type>
       <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>50</int>
-            <int>501</int>
-            <int>671</int>
-            <int>718</int>
-            <int>76</int>
-            <int>89</int>
-            <int>62</int>
-            <int>15</int>
-            <int>0</int>
-            <int>723</int>
-            <int>6</int>
-            <int>5</int>
-            <int>101</int>
-            <int>25</int>
-            <int>52</int>
-            <int>36</int>
-            <int>31</int>
-            <int>17</int>
-            <int>80</int>
-            <int>13</int>
-            <int>24</int>
-            <int>10</int>
-            <int>19</int>
-            <int>7</int>
-            <int>1</int>
-            <int>46</int>
-            <int>104</int>
-            <int>92</int>
-            <int>45</int>
-            <int>425</int>
-            <int>97</int>
-            <int>427</int>
-            <int>715</int>
-            <int>28</int>
-            <int>364</int>
-            <int>363</int>
-            <int>359</int>
-            <int>358</int>
-            <int>365</int>
-            <int>366</int>
-            <int>367</int>
-            <int>368</int>
-            <int>369</int>
-            <int>370</int>
-            <int>371</int>
-            <int>372</int>
-            <int>373</int>
-            <int>374</int>
-            <int>375</int>
-            <int>376</int>
-            <int>377</int>
-            <int>378</int>
-            <int>379</int>
-            <int>380</int>
-            <int>655</int>
-            <int>656</int>
-            <int>360</int>
-            <int>361</int>
-            <int>362</int>
-            <int>560</int>
-            <int>561</int>
-            <int>562</int>
-            <int>563</int>
-            <int>564</int>
-            <int>565</int>
-            <int>566</int>
-            <int>567</int>
-            <int>568</int>
-            <int>569</int>
-            <int>570</int>
-            <int>588</int>
-            <int>589</int>
-            <int>592</int>
-            <int>596</int>
-            <int>600</int>
-            <int>601</int>
-            <int>603</int>
-            <int>604</int>
-            <int>605</int>
-            <int>631</int>
-            <int>639</int>
-            <int>652</int>
-            <int>653</int>
-            <int>654</int>
-            <int>726</int>
-            <int>676</int>
-            <int>677</int>
-            <int>678</int>
-            <int>679</int>
-            <int>673</int>
-            <int>674</int>
-            <int>675</int>
-            <int>710</int>
-            <int>711</int>
-            <int>712</int>
-            <int>713</int>
-            <int>714</int>
-            <int>701</int>
-            <int>700</int>
-            <int>702</int>
-            <int>703</int>
-            <int>704</int>
-            <int>705</int>
-            <int>706</int>
-            <int>698</int>
-            <int>699</int>
-            <int>707</int>
-            <int>708</int>
-            <int>758</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>10</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
-            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
-            <EquipmentType>HELMET</EquipmentType>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-            <EquipmentType>BELT</EquipmentType>
-            <EquipmentType>BOOTS</EquipmentType>
-            <EquipmentType>GLOVES</EquipmentType>
-            <EquipmentType>AMULET</EquipmentType>
-            <EquipmentType>RING</EquipmentType>
-            <EquipmentType>RELIC</EquipmentType>
-          </type>
-          <subTypes />
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE SET</rarity>
+          <advanced>false</advanced>
+          <requiredLegendaryPotential>0</requiredLegendaryPotential>
+          <requiredWeaversWill>0</requiredWeaversWill>
         </Condition>
       </conditions>
-      <color>9</color>
+      <color>0</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
+      <maxLvl>100</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>Void Knight</nameOverride>
+      <nameOverride />
     </Rule>
   </rules>
 </ItemFilter>
