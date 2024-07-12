@@ -3295,10 +3295,10 @@
             <int>758</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>10</combinedComparsionValue>
+          <combinedComparsionValue>12</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
         <Condition i:type="SubTypeCondition">
@@ -3457,10 +3457,10 @@
             <int>84</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>10</combinedComparsionValue>
+          <combinedComparsionValue>12</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
