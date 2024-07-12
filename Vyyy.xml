@@ -1,4 +1,4 @@
-<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
   <name>Vyyy</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>17</filterIconColor>
@@ -1516,6 +1516,21 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>10</combinedComparsionValue>
           <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
+            <EquipmentType>TWO_HANDED_AXE</EquipmentType>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BELT</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
         </Condition>
       </conditions>
       <color>9</color>
