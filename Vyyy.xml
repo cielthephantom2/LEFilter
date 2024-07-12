@@ -1,9 +1,9 @@
-﻿<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
   <name>Vyyy</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>17</filterIconColor>
-  <description>Version 2</description>
-  <lastModifiedInVersion>1.1.0.3</lastModifiedInVersion>
+  <description>Version 3</description>
+  <lastModifiedInVersion>1.1.1</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -1393,7 +1393,138 @@
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride />
+      <nameOverride>Sorc</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>50</int>
+            <int>501</int>
+            <int>671</int>
+            <int>718</int>
+            <int>76</int>
+            <int>89</int>
+            <int>62</int>
+            <int>15</int>
+            <int>0</int>
+            <int>723</int>
+            <int>6</int>
+            <int>5</int>
+            <int>101</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>31</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>1</int>
+            <int>46</int>
+            <int>104</int>
+            <int>92</int>
+            <int>45</int>
+            <int>425</int>
+            <int>97</int>
+            <int>427</int>
+            <int>715</int>
+            <int>28</int>
+            <int>364</int>
+            <int>363</int>
+            <int>359</int>
+            <int>358</int>
+            <int>365</int>
+            <int>366</int>
+            <int>367</int>
+            <int>368</int>
+            <int>369</int>
+            <int>370</int>
+            <int>371</int>
+            <int>372</int>
+            <int>373</int>
+            <int>374</int>
+            <int>375</int>
+            <int>376</int>
+            <int>377</int>
+            <int>378</int>
+            <int>379</int>
+            <int>380</int>
+            <int>655</int>
+            <int>656</int>
+            <int>360</int>
+            <int>361</int>
+            <int>362</int>
+            <int>560</int>
+            <int>561</int>
+            <int>562</int>
+            <int>563</int>
+            <int>564</int>
+            <int>565</int>
+            <int>566</int>
+            <int>567</int>
+            <int>568</int>
+            <int>569</int>
+            <int>570</int>
+            <int>588</int>
+            <int>589</int>
+            <int>592</int>
+            <int>596</int>
+            <int>600</int>
+            <int>601</int>
+            <int>603</int>
+            <int>604</int>
+            <int>605</int>
+            <int>631</int>
+            <int>639</int>
+            <int>652</int>
+            <int>653</int>
+            <int>654</int>
+            <int>726</int>
+            <int>676</int>
+            <int>677</int>
+            <int>678</int>
+            <int>679</int>
+            <int>673</int>
+            <int>674</int>
+            <int>675</int>
+            <int>710</int>
+            <int>711</int>
+            <int>712</int>
+            <int>713</int>
+            <int>714</int>
+            <int>701</int>
+            <int>700</int>
+            <int>702</int>
+            <int>703</int>
+            <int>704</int>
+            <int>705</int>
+            <int>706</int>
+            <int>698</int>
+            <int>699</int>
+            <int>707</int>
+            <int>708</int>
+            <int>758</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>10</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>9</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Void Knight</nameOverride>
     </Rule>
   </rules>
 </ItemFilter>
