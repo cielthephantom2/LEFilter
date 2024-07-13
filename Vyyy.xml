@@ -3599,40 +3599,6 @@
           <combinedComparsionValue>12</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>676</int>
-            <int>677</int>
-            <int>678</int>
-            <int>679</int>
-            <int>673</int>
-            <int>674</int>
-            <int>675</int>
-            <int>710</int>
-            <int>711</int>
-            <int>712</int>
-            <int>713</int>
-            <int>714</int>
-            <int>701</int>
-            <int>700</int>
-            <int>702</int>
-            <int>703</int>
-            <int>704</int>
-            <int>705</int>
-            <int>706</int>
-            <int>698</int>
-            <int>699</int>
-            <int>707</int>
-            <int>708</int>
-            <int>758</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
       </conditions>
       <color>4</color>
       <isEnabled>true</isEnabled>
@@ -3781,40 +3747,6 @@
           <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>676</int>
-            <int>677</int>
-            <int>678</int>
-            <int>679</int>
-            <int>673</int>
-            <int>674</int>
-            <int>675</int>
-            <int>710</int>
-            <int>711</int>
-            <int>712</int>
-            <int>713</int>
-            <int>714</int>
-            <int>701</int>
-            <int>700</int>
-            <int>702</int>
-            <int>703</int>
-            <int>704</int>
-            <int>705</int>
-            <int>706</int>
-            <int>698</int>
-            <int>699</int>
-            <int>707</int>
-            <int>708</int>
-            <int>758</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
       </conditions>
       <color>17</color>
       <isEnabled>true</isEnabled>
@@ -3951,6 +3883,18 @@
           </type>
           <subTypes />
         </Condition>
+      </conditions>
+      <color>9</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Throwing</nameOverride>
+    </Rule>
+    <Rule>
+      <type>SHOW</type>
+      <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
             <int>676</int>
@@ -3978,21 +3922,21 @@
             <int>708</int>
             <int>758</int>
           </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>5</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
-          <advanced>true</advanced>
+          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
         </Condition>
       </conditions>
-      <color>9</color>
+      <color>0</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>Throwing</nameOverride>
+      <nameOverride>Personal/ Exper</nameOverride>
     </Rule>
   </rules>
 </ItemFilter>
