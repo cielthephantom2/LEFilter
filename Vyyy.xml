@@ -2,7 +2,7 @@
   <name>Vyyy</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>17</filterIconColor>
-  <description>Ver 6</description>
+  <description>Ver 7</description>
   <lastModifiedInVersion>1.1.1.1</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
@@ -3599,6 +3599,40 @@
           <combinedComparsionValue>12</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>676</int>
+            <int>677</int>
+            <int>678</int>
+            <int>679</int>
+            <int>673</int>
+            <int>674</int>
+            <int>675</int>
+            <int>710</int>
+            <int>711</int>
+            <int>712</int>
+            <int>713</int>
+            <int>714</int>
+            <int>701</int>
+            <int>700</int>
+            <int>702</int>
+            <int>703</int>
+            <int>704</int>
+            <int>705</int>
+            <int>706</int>
+            <int>698</int>
+            <int>699</int>
+            <int>707</int>
+            <int>708</int>
+            <int>758</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>5</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
       </conditions>
       <color>4</color>
       <isEnabled>true</isEnabled>
@@ -3747,6 +3781,40 @@
           <combinedComparsionValue>6</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>676</int>
+            <int>677</int>
+            <int>678</int>
+            <int>679</int>
+            <int>673</int>
+            <int>674</int>
+            <int>675</int>
+            <int>710</int>
+            <int>711</int>
+            <int>712</int>
+            <int>713</int>
+            <int>714</int>
+            <int>701</int>
+            <int>700</int>
+            <int>702</int>
+            <int>703</int>
+            <int>704</int>
+            <int>705</int>
+            <int>706</int>
+            <int>698</int>
+            <int>699</int>
+            <int>707</int>
+            <int>708</int>
+            <int>758</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>5</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
       </conditions>
       <color>17</color>
       <isEnabled>true</isEnabled>
@@ -3832,6 +3900,59 @@
             <int>440</int>
             <int>439</int>
             <int>437</int>
+            <int>88</int>
+            <int>507</int>
+            <int>640</int>
+            <int>620</int>
+            <int>503</int>
+            <int>616</int>
+            <int>615</int>
+            <int>86</int>
+            <int>643</int>
+            <int>102</int>
+            <int>64</int>
+            <int>26</int>
+            <int>5</int>
+            <int>8</int>
+            <int>719</int>
+            <int>33</int>
+            <int>642</int>
+            <int>662</int>
+            <int>519</int>
+            <int>727</int>
+            <int>728</int>
+            <int>729</int>
+            <int>730</int>
+            <int>731</int>
+            <int>739</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>12</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BELT</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+            <EquipmentType>QUIVER</EquipmentType>
+            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
+            <EquipmentType>SHIELD</EquipmentType>
+            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
+            <EquipmentType>BOW</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
             <int>676</int>
             <int>677</int>
             <int>678</int>
@@ -3856,59 +3977,13 @@
             <int>707</int>
             <int>708</int>
             <int>758</int>
-            <int>88</int>
-            <int>507</int>
-            <int>640</int>
-            <int>620</int>
-            <int>503</int>
-            <int>616</int>
-            <int>615</int>
-            <int>86</int>
-            <int>68</int>
-            <int>54</int>
-            <int>643</int>
-            <int>102</int>
-            <int>64</int>
-            <int>26</int>
-            <int>5</int>
-            <int>8</int>
-            <int>719</int>
-            <int>33</int>
-            <int>642</int>
-            <int>662</int>
-            <int>519</int>
-            <int>727</int>
-            <int>728</int>
-            <int>729</int>
-            <int>730</int>
-            <int>731</int>
-            <int>739</int>
-            <int>93</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>5</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>12</combinedComparsionValue>
+          <combinedComparsionValue>5</combinedComparsionValue>
           <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>HELMET</EquipmentType>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-            <EquipmentType>BELT</EquipmentType>
-            <EquipmentType>BOOTS</EquipmentType>
-            <EquipmentType>GLOVES</EquipmentType>
-            <EquipmentType>AMULET</EquipmentType>
-            <EquipmentType>RING</EquipmentType>
-            <EquipmentType>RELIC</EquipmentType>
-            <EquipmentType>QUIVER</EquipmentType>
-            <EquipmentType>ONE_HANDED_SWORD</EquipmentType>
-            <EquipmentType>SHIELD</EquipmentType>
-            <EquipmentType>ONE_HANDED_DAGGER</EquipmentType>
-            <EquipmentType>BOW</EquipmentType>
-          </type>
-          <subTypes />
         </Condition>
       </conditions>
       <color>9</color>
