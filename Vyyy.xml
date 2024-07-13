@@ -2,8 +2,8 @@
   <name>Vyyy</name>
   <filterIcon>4</filterIcon>
   <filterIconColor>17</filterIconColor>
-  <description>Vyyy 4</description>
-  <lastModifiedInVersion>1.0.0.0</lastModifiedInVersion>
+  <description>Ver 5</description>
+  <lastModifiedInVersion>1.1.1.1</lastModifiedInVersion>
   <lootFilterVersion>2</lootFilterVersion>
   <rules>
     <Rule>
@@ -746,228 +746,6 @@
       <maxLvl>100</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>GS + F + SSS + SCS Gloves (Eternal)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>QUIVER</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>503</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>6</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>26</int>
-            <int>503</int>
-            <int>45</int>
-            <int>433</int>
-            <int>86</int>
-            <int>5</int>
-            <int>57</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-      </conditions>
-      <color>16</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>BF + DBF Quiver (BF= Ballista Falconer) (Skalnir + Ivory)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>GLOVES</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>36</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>6</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>502</int>
-            <int>503</int>
-            <int>36</int>
-            <int>86</int>
-            <int>429</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-      </conditions>
-      <color>16</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>BF gloves (Arcane) </nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BODY_ARMOR</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>536</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>6</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>503</int>
-            <int>536</int>
-            <int>25</int>
-            <int>52</int>
-            <int>463</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-      </conditions>
-      <color>16</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>BF armour (Falconry)</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BELT</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>36</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>6</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>330</int>
-            <int>712</int>
-            <int>52</int>
-            <int>36</int>
-            <int>26</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-      </conditions>
-      <color>16</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>BF Belt (Divine) </nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="SubTypeCondition">
-          <type>
-            <EquipmentType>BOOTS</EquipmentType>
-          </type>
-          <subTypes />
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>28</int>
-          </affixes>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>6</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>28</int>
-            <int>502</int>
-            <int>36</int>
-            <int>97</int>
-            <int>679</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>0</combinedComparsionValue>
-          <advanced>false</advanced>
-        </Condition>
-      </conditions>
-      <color>16</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>100</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>BF boots (Vanguard) </nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -3971,9 +3749,10 @@
             <int>730</int>
             <int>731</int>
             <int>739</int>
+            <int>93</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>4</comparsionValue>
+          <comparsionValue>5</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>12</combinedComparsionValue>
@@ -4005,6 +3784,168 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>Throwing</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
+            <EquipmentType>WAND</EquipmentType>
+            <EquipmentType>TWO_HANDED_STAFF</EquipmentType>
+            <EquipmentType>CATALYST</EquipmentType>
+            <EquipmentType>HELMET</EquipmentType>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+            <EquipmentType>BELT</EquipmentType>
+            <EquipmentType>BOOTS</EquipmentType>
+            <EquipmentType>GLOVES</EquipmentType>
+            <EquipmentType>AMULET</EquipmentType>
+            <EquipmentType>RING</EquipmentType>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>718</int>
+            <int>759</int>
+            <int>4</int>
+            <int>84</int>
+            <int>38</int>
+            <int>93</int>
+            <int>18</int>
+            <int>724</int>
+            <int>6</int>
+            <int>5</int>
+            <int>25</int>
+            <int>103</int>
+            <int>52</int>
+            <int>36</int>
+            <int>31</int>
+            <int>17</int>
+            <int>80</int>
+            <int>13</int>
+            <int>24</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>1</int>
+            <int>46</int>
+            <int>104</int>
+            <int>92</int>
+            <int>45</int>
+            <int>425</int>
+            <int>99</int>
+            <int>382</int>
+            <int>97</int>
+            <int>427</int>
+            <int>715</int>
+            <int>28</int>
+            <int>27</int>
+            <int>34</int>
+            <int>330</int>
+            <int>331</int>
+            <int>506</int>
+            <int>429</int>
+            <int>86</int>
+            <int>384</int>
+            <int>401</int>
+            <int>402</int>
+            <int>410</int>
+            <int>411</int>
+            <int>412</int>
+            <int>413</int>
+            <int>415</int>
+            <int>420</int>
+            <int>421</int>
+            <int>422</int>
+            <int>423</int>
+            <int>424</int>
+            <int>435</int>
+            <int>747</int>
+            <int>748</int>
+            <int>749</int>
+            <int>404</int>
+            <int>405</int>
+            <int>406</int>
+            <int>407</int>
+            <int>408</int>
+            <int>409</int>
+            <int>414</int>
+            <int>416</int>
+            <int>417</int>
+            <int>418</int>
+            <int>419</int>
+            <int>192</int>
+            <int>572</int>
+            <int>573</int>
+            <int>574</int>
+            <int>576</int>
+            <int>577</int>
+            <int>578</int>
+            <int>579</int>
+            <int>580</int>
+            <int>581</int>
+            <int>582</int>
+            <int>583</int>
+            <int>586</int>
+            <int>594</int>
+            <int>607</int>
+            <int>623</int>
+            <int>632</int>
+            <int>633</int>
+            <int>634</int>
+            <int>635</int>
+            <int>636</int>
+            <int>571</int>
+            <int>647</int>
+            <int>649</int>
+            <int>650</int>
+            <int>732</int>
+            <int>733</int>
+            <int>734</int>
+            <int>735</int>
+            <int>676</int>
+            <int>677</int>
+            <int>678</int>
+            <int>679</int>
+            <int>673</int>
+            <int>674</int>
+            <int>675</int>
+            <int>710</int>
+            <int>711</int>
+            <int>712</int>
+            <int>713</int>
+            <int>714</int>
+            <int>701</int>
+            <int>700</int>
+            <int>702</int>
+            <int>703</int>
+            <int>704</int>
+            <int>705</int>
+            <int>706</int>
+            <int>698</int>
+            <int>699</int>
+            <int>707</int>
+            <int>708</int>
+            <int>758</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>5</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>5</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>17</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Warlock</nameOverride>
     </Rule>
   </rules>
 </ItemFilter>
